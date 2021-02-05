@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("VSAutoIncrementVersion")]
-[assembly: AssemblyDescription("Tool to auto increment version of a project")]
+[assembly: AssemblyDescription("Tool to auto increment version of a project in VisualStudio")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("VSAutoIncrementVersion")]
