@@ -9,12 +9,14 @@ All you have to do is :
 </br></br>
 **step1** :</br>
 copy VSAutoIncrementVersion release "[VSAutoIncrementVersion.exe](https://github.com/melharfi/VSAutoIncrementVersion/releases/latest)" in you project root folder
+![alt text](https://github.com/melharfi/VSAutoIncrementVersion/blob/master/VSAutoIncrementVersion/vsaiv-1.png)
 </br></br>
 **step2** :</br>
 past these lines to Post-Build
 </br></br>
 xcopy "$(ProjectDir)*version.txt*" "$(TargetDir)\"
 "$(ProjectDir)\"VSAutoIncrementVersion.exe *version.txt* *1.0.0.?*
+![alt text](https://github.com/melharfi/VSAutoIncrementVersion/blob/master/VSAutoIncrementVersion/vsaiv-2.png)
 </br></br>
 **step 3** :</br>
 use this code to read your version in your project :
