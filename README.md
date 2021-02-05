@@ -16,6 +16,7 @@ past these lines to Post-Build
 </br></br>
 xcopy "$(ProjectDir)*version.txt*" "$(TargetDir)\"
 "$(ProjectDir)\"VSAutoIncrementVersion.exe *version.txt* *1.0.0.?*
+![alt text](https://github.com/melharfi/VSAutoIncrementVersion/blob/master/VSAutoIncrementVersion/vsaiv-2.png)
 </br></br>
 **step 3** :</br>
 use this code to read your version in your project :
