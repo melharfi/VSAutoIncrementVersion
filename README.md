@@ -15,7 +15,7 @@ copy VSAutoIncrementVersion release "[VSAutoIncrementVersion.exe](https://github
 past these lines to Post-Build
 </br></br>
 xcopy "$(ProjectDir)*version.txt*" "$(TargetDir)\"</br>
-"$(ProjectDir)\"VSAutoIncrementVersion.exe *version.txt* *1.0.0.?*</br>
+"$(ProjectDir)\\"VSAutoIncrementVersion.exe *version.txt* *1.0.0.?*</br>
 ![alt text](https://github.com/melharfi/VSAutoIncrementVersion/blob/master/VSAutoIncrementVersion/vsaiv-2.png)
 </br></br>
 **step 3** :</br>
