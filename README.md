@@ -2,7 +2,7 @@
 
 Tool to auto increment version in Visual Studio
 
-Auto increment version is not something included by default in visual studio and there's some walkaround in the web but all of them is more complicated and othen specific to some scenarios.
+Auto increment version is not something included by default in visual studio and there's some walkaround in the web but all of them is more complicated and often specific to some scenarios.
 VSAutoIncrementVersion use a simple way by storing version into a text file and read value from it and increment it each time there's a rebuild of your application.
 
 All you have to do is :
