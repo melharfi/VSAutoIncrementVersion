@@ -6,13 +6,16 @@ Auto increment version is not something included by default in visual studio and
 VSAutoIncrementVersion use a simple way by storing version into a text file and read value from it and increment it each time there's a rebuild of your application.
 
 All you have to do is :
-step1 : copy VSAutoIncrementVersion release "VSAutoIncrementVersion.exe" in you project root folder
 
-step2 : past these lines to Post-Build
+*step1* : copy VSAutoIncrementVersion release "VSAutoIncrementVersion.exe" in you project root folder
+
+*step2* : past these lines to Post-Build
+
 xcopy "$(ProjectDir)version.txt" "$(TargetDir)\"
 "$(ProjectDir)\"VSAutoIncrementVersion.exe version.txt 1.0.0.?
 
-step 3 : use this code to read your version in your project :
+*step 3* : use this code to read your version in your project :
+
 Version currentVersion = Version.Parse(File.ReadAllText(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + @"\version.txt"));
 
 You will need thoses namespaces aswell
@@ -20,6 +23,7 @@ using System.IO;
 using System.Reflection;
 
 Explanation:
+
 step 1 : you need VSAutoIncrementVersion.exe so it'll be executed each time you rebuild your application and increment version
 
 step 2 :
