@@ -8,7 +8,7 @@ VSAutoIncrementVersion use a simple way by storing version into a text file and 
 All you have to do is :
 </br></br>
 **step1** :</br>
-copy VSAutoIncrementVersion release "VSAutoIncrementVersion.exe" in you project root folder
+copy VSAutoIncrementVersion release "[https://github.com/melharfi/VSAutoIncrementVersion/releases/latest](VSAutoIncrementVersion.exe)" in you project root folder
 </br></br>
 **step2** :</br>
 past these lines to Post-Build
