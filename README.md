@@ -9,7 +9,7 @@ All you have to do is :
 </br></br>
 **step1** :</br>
 copy VSAutoIncrementVersion release "[VSAutoIncrementVersion.exe](https://github.com/melharfi/VSAutoIncrementVersion/releases/latest)" in you project root folder
-![alt text](https://github.com/melharfi/VSAutoIncrementVersion/blob/master/VSAutoIncrementVersion/vsaiv-1.png "Logo Title Text 1")
+![alt text](https://github.com/melharfi/VSAutoIncrementVersion/blob/master/VSAutoIncrementVersion/vsaiv-1.png)
 </br></br>
 **step2** :</br>
 past these lines to Post-Build
